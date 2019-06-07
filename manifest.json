@@ -1,0 +1,42 @@
+{
+  "name": "Transferencia - FDSM",
+  "short_name": "Transferencia - FDSM",
+  "start_url": "https://www.fdsm.edu.br/transferencia/",
+  "display": "fullscreen",
+  "theme_color": "#44276a",
+  "background_color": "#44276a",
+  "description": " Confira o web app de transferência de curso da FDSM, Saiba tudo sobre os diferenciais oferecidos, Bolsas de estudo, intercâmbio e muito mais! FDSM - 'O Melhor Direito é o Nosso!' ",
+  
+  "icons": [{
+    "src": "images/touch/homescreen48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen168.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "images/touch/homescreen512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }, {
+      "src": "images/touch/homescreen192.svg",
+      "sizes": "145x145"
+    }]
+}
