@@ -170,7 +170,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
     .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
-    .txt_flags { float: left; width: 86%; padding: 1% 4%; }
+    .txt_flags { float: left; width: 80%; padding: 1% 4%; }
 
     #div_giant { float: right; width: 59.2%; margin: 11% -6% 0; }
 
@@ -183,6 +183,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     .button_ps { background-color: #462671; width: fit-content; text-align: center; color: #ffd200; font-size: 1.5vw; padding: 1% 5%; border-radius: 12px; margin: 11% 10%; position: relative; }
     .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    #txts_transferencia > center > a:nth-child(6) > div{margin: 32% 0 10%;}
 
     #container_img_transferencia { float: left; width: 24%; margin: 0 13%; }
 
@@ -324,6 +325,10 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .button_ps { background-color: #462671; width: fit-content; text-align: center; color: #ffd200; font-size: 1.5vw; padding: 1% 5%; border-radius: 12px; margin: 11% 10%; position: relative; }
     .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
+    #txts_transferencia>center>a:nth-child(6)>div { margin: 5% 0 10%; }
+
+    #txts_transferencia > center > p { font-size: 1.5vw;color: #fff;padding: 2% 2%; margin: 20% 2% 0; width: fit-content; float: none; }
+
     #container_img_transferencia { float: left; width: 24%; margin: 0 13%; }
 
 
@@ -461,6 +466,8 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     #txts_transferencia > center > a:nth-child(5) > div{margin-top: 25%;}
 
+ 
+    
     .button_ps { background-color: #462671; width: fit-content; text-align: center; color: #ffd200; font-size: 1.5vw; padding: 1% 5%; border-radius: 12px; margin: 11% 10%; position: relative; }
     .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
@@ -609,11 +616,14 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .linha_2_txts_banner2 { float: left; width: fit-content; font-size: 10.8vw; padding: 2%; font-weight: 600; background-color: #672e91; margin: -2% 0 0 -3%; z-index: 0; }
 
     #txts_transferencia > center > a:nth-child(5) > div{margin-top: 19%;}
+    #txts_transferencia>center>p { font-size: 4.5vw; color: #fff; padding: 2% 2%; margin: 20% 2% 0; width: fit-content; float: none; }
+
+    #txts_transferencia>center>a:nth-child(6)>div { margin: 5% 0 7%; }
 
     .button_ps { background-color: #462671; width: fit-content; text-align: center; color: #ffd200; font-size: 3.5vw; padding: 1% 5%; border-radius: 12px; margin: 5% 10%; position: relative; }
     .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
-    #container_img_transferencia { float: left; width: 58%; margin: 0 21%; }
+    #container_img_transferencia { float: left; width: 21%; margin: 0 39.5%; }
 
 
   /*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -756,12 +766,14 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .linha_1_txts_banner2 { float: left; width: 65%; text-align: center; padding: 1%; font-size: 4vw; background-color: #fcb316; color: #44276a; border-radius: 25px 0; z-index: 1; position: relative; }
     .linha_2_txts_banner2 { float: left; width: fit-content; font-size: 10.8vw; padding: 2%; font-weight: 600; background-color: #672e91; margin: -2% 0 0 -3%; z-index: 0; }
 
-    #txts_transferencia > center > a:nth-child(5) > div{margin-top: 19%;}
+    #txts_transferencia>center>p { font-size: 4.5vw; color: #fff; padding: 2% 2%; margin: 20% 2% 0; width: fit-content; float: none; }
 
+    #txts_transferencia > center > a:nth-child(5) > div{margin-top: 19%;}
+    #txts_transferencia>center>a:nth-child(6)>div { margin: 10% 0 10%; }
     .button_ps { background-color: #462671; width: fit-content; text-align: center; color: #ffd200; font-size: 3.5vw; padding: 1% 5%; border-radius: 12px; margin: 5% 10%; position: relative; }
     .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
-    #container_img_transferencia { float: left; width: 58%; margin: 0 21%; }
+    #container_img_transferencia { float: left; width: 61%; margin: 0 19.5%; }
 
 
   /*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -904,11 +916,13 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .linha_2_txts_banner2 { float: left; width: fit-content; font-size: 10.8vw; padding: 2%; font-weight: 600; background-color: #672e91; margin: -2% 0 0 -3%; z-index: 0; }
 
     #txts_transferencia > center > a:nth-child(5) > div{margin-top: 14%;}
+    #txts_transferencia>center>a:nth-child(6)>div { margin: 5% 0 10%;}
+    #txts_transferencia>center>p { font-size: 4.5vw; color: #fff; padding: 2% 2%; margin: 20% 2% 0; width: fit-content; float: none; }
 
     .button_ps { background-color: #462671; width: fit-content; text-align: center; color: #ffd200; font-size: 3.5vw; padding: 1% 5%; border-radius: 12px; margin: 5% 10%; position: relative; }
     .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
-    #container_img_transferencia { float: left; width: 44%; margin: 0 28%; }
+    #container_img_transferencia { float: left; width: 43%; margin: 0 28.5%; }
 
 
   /*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
