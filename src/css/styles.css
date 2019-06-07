@@ -94,7 +94,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     #txts_banner { float: right; width: 50%; margin: 20% 0 8.4%; color: #fff; font-weight: 600; }
   
-    .linha_1_txts_banner, .linha_1_txts_banner2 { float: left; width: 55%; text-align: center; padding: 1%; font-size: 2vw; background-color: #fcb316; color: #44276a; border-radius: 25px 0; z-index: 1; position: relative; }
+    .linha_1_txts_banner, .linha_1_txts_banner2 { float: left; width: 60%; text-align: center; padding: 1%; font-size: 2vw; background-color: #fcb316; color: #44276a; border-radius: 25px 0; z-index: 1; position: relative; }
     .linha_2_txts_banner, .linha_2_txts_banner2 { float: left; width: fit-content; font-size: 5vw; padding: 2%; font-weight: 600; background-color: #672e91; margin: -2% 0 0 -3%; z-index: 0; }
     .linha_3_e_4_txts_banner { float: left; width: fit-content; font-size: 3.5vw; text-align: center; font-weight: 100; margin: 2.5% 0; }
     
@@ -154,7 +154,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 /*classes em teste*/
     #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
     
-    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png)}
     .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
 
     #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
