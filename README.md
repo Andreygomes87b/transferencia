@@ -1,4 +1,4 @@
-# Master's course in Digital Rights Progressive Web App done for the Southern Minas Gerais Law College (FDSM - Faculdade de Direito do Sul de Minas).
+# Law course transfer campaign Progressive Web App done for the Southern Minas Gerais Law College (FDSM - Faculdade de Direito do Sul de Minas).
 
 - Responsive PWA built with Twitter model media-queries and general vw's for viewport sizing.
 - Accessibility tested with aXe Deque and Google's lighthouse and improved trought alt's and aria-labels.
@@ -9,22 +9,22 @@
 ---
 
 ### :metal: *Live version:* 
-[Digital Rights (Live).](https://www.fdsm.edu.br/curso-direito-digital/)
+[Digital Rights (Live).](https://www.fdsm.edu.br/transferencia/)
 
 ---
 
 ### :date: *Web-archive version:*
-[Digital Rights (Web-archive).](http://web.archive.org/web/20190531192538/https://www.fdsm.edu.br/curso-direito-digital/)
+[Digital Rights (Web-archive).](http://web.archive.org/web/20190607142600/https://www.fdsm.edu.br/transferencia/)
 
 ---
 
-### :rabbit2: *PageSpeed Report* (**98** - mobile/ **100** - desktop - scoring guide):
-[PSI Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Fcurso-direito-digital%2F&tab=desktop)
+### :rabbit2: *PageSpeed Report* (**97** - mobile/ **100** - desktop - scoring guide):
+[PSI Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Ftransferencia&tab=desktop)
 
 ---
 
-### :watch: *GTmetrix test* (1.1 seconds to fully loading time!)
-[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/HZ8gMuGk)
+### :watch: *GTmetrix test* (0.9 seconds to fully loading time!)
+[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/COAwqYBe)
 
 ---
 
