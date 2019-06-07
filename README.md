@@ -9,22 +9,22 @@
 ---
 
 ### :metal: *Live version:* 
-[Digital Rights (Live).](https://www.fdsm.edu.br/transferencia/)
+[Course Transfer (Live).](https://www.fdsm.edu.br/transferencia/)
 
 ---
 
 ### :date: *Web-archive version:*
-[Digital Rights (Web-archive).](http://web.archive.org/web/20190607142600/https://www.fdsm.edu.br/transferencia/)
+[Course Transfer (Web-archive).](http://web.archive.org/web/20190607191333/https://www.fdsm.edu.br/transferencia/)
 
 ---
 
-### :rabbit2: *PageSpeed Report* (**97** - mobile/ **100** - desktop - scoring guide):
-[PSI Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Ftransferencia&tab=desktop)
+### :rabbit2: *PageSpeed Report* (**98** - mobile/ **100** - desktop - scoring guide):
+[PSI Report.](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fdsm.edu.br%2Ftransferencia%2F&tab=desktop)
 
 ---
 
-### :watch: *GTmetrix test* (0.9 seconds to fully loading time!)
-[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/COAwqYBe)
+### :watch: *GTmetrix test* (1 second to fully loading time!)
+[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/Zm7tvZVa)
 
 ---
 

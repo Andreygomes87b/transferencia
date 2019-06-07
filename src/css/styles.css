@@ -152,17 +152,23 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     #board_convenios > center > a > div{font-size: 2vw;}
 
 /*classes em teste*/
-#container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background: url(images/img-fallback/transparencia.png) no-repeat; background-size: cover; border-radius: 20px; }
+    #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
+    
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
+
     #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
     
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
-    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; background: url('images/img-fallback/flags_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block;  overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .webp .chile, .webp .espanha, .webp .mexico, .webp .portugal, .webp .uruguai{background: url('images/flags_sprite.webp') no-repeat;}
+    .no-webp .chile, .no-webp .espanha, .no-webp .mexico, .no-webp .portugal, .no-webp .uruguai{background: url('images/img-fallback/flags_sprite.png') no-repeat;}
     
-    .chile { background-position: -5px -0px; width: 28px !important; height: 28px; float: left; }
-    .espanha { background-position: -38px -0px; width: 29px !important; height: 29px; float: left; }
-    .mexico { background-position: -4px -33px; width: 29px!important; height: 30px; float: left; }
-    .portugal { background-position: -39px -34px; width: 28px !important; height: 28px; float: left; }
-    .uruguai { background-position: -5px -67px; width: 29px!important; height: 29px; float: left; }
+    .chile { background-position: -5px -0px !important; width: 28px; height: 28px; float: left; }
+    .espanha { background-position: -38px -0px !important; width: 29px; height: 29px; float: left; }
+    .mexico { background-position: -4px -33px !important; width: 29px; height: 30px; float: left; }
+    .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
+    .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
     .txt_flags { float: left; width: 86%; padding: 1% 4%; }
 
@@ -287,17 +293,22 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     #board_convenios > center > a > div{font-size: 2vw;}
 
 /*classes em teste*/
-#container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background: url(images/img-fallback/transparencia.png) no-repeat; background-size: cover; border-radius: 20px; }
+    #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
+
     #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
     
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
-    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; background: url('images/img-fallback/flags_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .webp .chile, .webp .espanha, .webp .mexico, .webp .portugal, .webp .uruguai{background: url('images/flags_sprite.webp') no-repeat;}
+    .no-webp .chile, .no-webp .espanha, .no-webp .mexico, .no-webp .portugal, .no-webp .uruguai{background: url('images/img-fallback/flags_sprite.png') no-repeat;}
     
-    .chile { background-position: -5px -0px; width: 28px !important; height: 28px; float: left; }
-    .espanha { background-position: -38px -0px; width: 29px !important; height: 29px; float: left; }
-    .mexico { background-position: -4px -33px; width: 29px!important; height: 30px; float: left; }
-    .portugal { background-position: -39px -34px; width: 28px !important; height: 28px; float: left; }
-    .uruguai { background-position: -5px -67px; width: 29px!important; height: 29px; float: left; }
+    .chile { background-position: -5px -0px !important; width: 28px; height: 28px; float: left; }
+    .espanha { background-position: -38px -0px !important; width: 29px; height: 29px; float: left; }
+    .mexico { background-position: -4px -33px !important; width: 29px; height: 30px; float: left; }
+    .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
+    .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
     .txt_flags { float: left; width: 86%; padding: 1% 2%; }
 
@@ -421,18 +432,23 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     #board_convenios > center > a > div{font-size: 2vw;}
 
-/*classes em teste*/
-#container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background: url(images/img-fallback/transparencia.png) no-repeat; background-size: cover; border-radius: 20px; }
+    /*classes em teste*/
+    #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
+
     #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
     
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
-    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; background: url('images/img-fallback/flags_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .webp .chile, .webp .espanha, .webp .mexico, .webp .portugal, .webp .uruguai{background: url('images/flags_sprite.webp') no-repeat;}
+    .no-webp .chile, .no-webp .espanha, .no-webp .mexico, .no-webp .portugal, .no-webp .uruguai{background: url('images/img-fallback/flags_sprite.png') no-repeat;}
     
-    .chile { background-position: -5px -0px; width: 28px !important; height: 28px; float: left; }
-    .espanha { background-position: -38px -0px; width: 29px !important; height: 29px; float: left; }
-    .mexico { background-position: -4px -33px; width: 29px!important; height: 30px; float: left; }
-    .portugal { background-position: -39px -34px; width: 28px !important; height: 28px; float: left; }
-    .uruguai { background-position: -5px -67px; width: 29px!important; height: 29px; float: left; }
+    .chile { background-position: -5px -0px !important; width: 28px; height: 28px; float: left; }
+    .espanha { background-position: -38px -0px !important; width: 29px; height: 29px; float: left; }
+    .mexico { background-position: -4px -33px !important; width: 29px; height: 30px; float: left; }
+    .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
+    .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
     .txt_flags { float: left; width: 86%; padding: 1% 4%; }
 
@@ -565,16 +581,20 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     #board_convenios > center > a > div{font-size: 4vw;}
 
-    #container_de_texto_e_bandeiras { float: left; width: 87%; padding: 5%; margin: 5% 0; background: url(images/img-fallback/transparencia.png) no-repeat; background-size: cover; border-radius: 20px; font-size: 3vw;}
+    #container_de_texto_e_bandeiras { float: left; width: 87%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; font-size: 3vw;}
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
         
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
-    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; background: url('images/img-fallback/flags_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .webp .chile, .webp .espanha, .webp .mexico, .webp .portugal, .webp .uruguai{background: url('images/flags_sprite.webp') no-repeat;}
+    .no-webp .chile, .no-webp .espanha, .no-webp .mexico, .no-webp .portugal, .no-webp .uruguai{background: url('images/img-fallback/flags_sprite.png') no-repeat;}
     
-    .chile { background-position: -5px -0px; width: 28px !important; height: 28px; float: left; }
-    .espanha { background-position: -38px -0px; width: 29px !important; height: 29px; float: left; }
-    .mexico { background-position: -4px -33px; width: 29px!important; height: 30px; float: left; }
-    .portugal { background-position: -39px -34px; width: 28px !important; height: 28px; float: left; }
-    .uruguai { background-position: -5px -67px; width: 29px!important; height: 29px; float: left; }
+    .chile { background-position: -5px -0px !important; width: 28px; height: 28px; float: left; }
+    .espanha { background-position: -38px -0px !important; width: 29px; height: 29px; float: left; }
+    .mexico { background-position: -4px -33px !important; width: 29px; height: 30px; float: left; }
+    .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
+    .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
     .txt_flags { float: left; width: 80%; padding: 1% 4%; }
 
@@ -709,16 +729,20 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     #board_convenios > center > a > div{font-size: 4vw;}
 
-    #container_de_texto_e_bandeiras { float: left; width: 87%; padding: 5%; margin: 5% 0; background: url(images/img-fallback/transparencia_s.png) no-repeat; background-size: cover; border-radius: 20px; font-size: 3vw;}
+    #container_de_texto_e_bandeiras { float: left; width: 87%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; font-size: 3vw;}
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia_s.png) no-repeat; }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia_s.webp) no-repeat; }
         
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
-    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; background: url('images/img-fallback/flags_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .webp .chile, .webp .espanha, .webp .mexico, .webp .portugal, .webp .uruguai{background: url('images/flags_sprite.webp') no-repeat;}
+    .no-webp .chile, .no-webp .espanha, .no-webp .mexico, .no-webp .portugal, .no-webp .uruguai{background: url('images/img-fallback/flags_sprite.png') no-repeat;}
     
-    .chile { background-position: -5px -0px; width: 28px !important; height: 28px; float: left; }
-    .espanha { background-position: -38px -0px; width: 29px !important; height: 29px; float: left; }
-    .mexico { background-position: -4px -33px; width: 29px!important; height: 30px; float: left; }
-    .portugal { background-position: -39px -34px; width: 28px !important; height: 28px; float: left; }
-    .uruguai { background-position: -5px -67px; width: 29px!important; height: 29px; float: left; }
+    .chile { background-position: -5px -0px !important; width: 28px; height: 28px; float: left; }
+    .espanha { background-position: -38px -0px !important; width: 29px; height: 29px; float: left; }
+    .mexico { background-position: -4px -33px !important; width: 29px; height: 30px; float: left; }
+    .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
+    .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
     .txt_flags { float: left; width: 80%; padding: 1% 4%; }
 
@@ -852,16 +876,20 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     #board_convenios > center > a > div{font-size: 4vw;}
 
-    #container_de_texto_e_bandeiras { float: left; width: 87%; padding: 5%; margin: 5% 0; background: url(images/img-fallback/transparencia_s.png) no-repeat; background-size: cover; border-radius: 20px; font-size: 3vw;}
+    #container_de_texto_e_bandeiras { float: left; width: 87%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; font-size: 3vw;}
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia_s.png) no-repeat; }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia_s.webp) no-repeat; }
         
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
-    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; background: url('images/img-fallback/flags_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
+    .webp .chile, .webp .espanha, .webp .mexico, .webp .portugal, .webp .uruguai{background: url('images/flags_sprite.webp') no-repeat;}
+    .no-webp .chile, .no-webp .espanha, .no-webp .mexico, .no-webp .portugal, .no-webp .uruguai{background: url('images/img-fallback/flags_sprite.png') no-repeat;}
     
-    .chile { background-position: -5px -0px; width: 28px !important; height: 28px; float: left; }
-    .espanha { background-position: -38px -0px; width: 29px !important; height: 29px; float: left; }
-    .mexico { background-position: -4px -33px; width: 29px!important; height: 30px; float: left; }
-    .portugal { background-position: -39px -34px; width: 28px !important; height: 28px; float: left; }
-    .uruguai { background-position: -5px -67px; width: 29px!important; height: 29px; float: left; }
+    .chile { background-position: -5px -0px !important; width: 28px; height: 28px; float: left; }
+    .espanha { background-position: -38px -0px !important; width: 29px; height: 29px; float: left; }
+    .mexico { background-position: -4px -33px !important; width: 29px; height: 30px; float: left; }
+    .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
+    .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
     .txt_flags { float: left; width: 80%; padding: 1% 4%; }
 
