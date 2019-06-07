@@ -154,8 +154,8 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 /*classes em teste*/
     #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
     
-    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png)}
-    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp);}
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png);}
 
     #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
     
@@ -294,8 +294,8 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
 /*classes em teste*/
     #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
-    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
-    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png); }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp); }
 
     #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
     
@@ -434,8 +434,8 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
     /*classes em teste*/
     #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
-    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
-    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png); }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp); }
 
     #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
     
@@ -582,8 +582,8 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     #board_convenios > center > a > div{font-size: 4vw;}
 
     #container_de_texto_e_bandeiras { float: left; width: 87%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; font-size: 3vw;}
-    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png) no-repeat; }
-    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp) no-repeat; }
+    .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png); }
+    .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp); }
         
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
     .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block; overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
