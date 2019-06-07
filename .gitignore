@@ -8,6 +8,6 @@
 
 # ignore a single file
 package-lock.json
+_config.yml
 
 #ignore other project files:
-curso-direito-digital.zip
