@@ -141,7 +141,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     #bolsas{float: left; width: 90%; padding: 5%; background-color: #ffd200;}
     #container_selo { float: right; width: 40.34%; margin-top: -5.5%; }
     #container_bolsas_txts { float: left; width: 59%; text-align: center; font-size: 2.5vw; color: #152350; }
-    .titulo_bolsas{ color: #44276a; font-size: 4.97vw; font-weight: 600; }
+    .titulo_bolsas{ color: #44276a; font-size: 4.91vw; font-weight: 600; }
     .tb_bold{color:#ffd200; background-color:#44276a ;}
 
     .btn_container{ float: left; width: fit-content; margin: 0 35.5%; white-space: nowrap; }
