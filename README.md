@@ -1,10 +1,10 @@
 # Law course transfer campaign Progressive Web App done for the Southern Minas Gerais Law College (FDSM - Faculdade de Direito do Sul de Minas).
 
-- Responsive PWA built with Twitter model media-queries and general vw's for viewport sizing.
-- Accessibility tested with aXe Deque and Google's lighthouse and improved trought alt's and aria-labels.
-- Speed tested thought google's PageSpeed Insights & GTMetrix.
+- Responsive PWA built with Twitter model media-queries and general vw's for fluid viewport resizing.
+- Accessibility tested with aXe Deque and Google's Lighthouse audits and improved trought alt's and aria-labels.
+- Speed tested thought Google's PageSpeed Insights & GTMetrix.
 
-** For evaluation purposes the code to look for are the uncompressed, commented and legible versions (index.html/ styles.css), live version is automaticaly compressed (comments/whitespaces stripped) and exported as index.php/stylesf-min.css by GruntJs workflow established. ** 
+** For evaluation purposes the code to look for are the uncompressed, commented and legible versions (index.html/ styles.css), live version is automaticaly compressed (comments/whitespaces stripped but also the visually faithful to the original layout) and exported as index.php/stylesf-min.css by GruntJs workflow established. ** 
 <br>
 ---
 
@@ -14,7 +14,7 @@
 ---
 
 ### :date: *Web-archive version:*
-[Course Transfer (Web-archive).](http://web.archive.org/web/20190607191333/https://www.fdsm.edu.br/transferencia/)
+[Course Transfer (Web-archive).](http://web.archive.org/web/20190610161127/https://www.fdsm.edu.br/transferencia/)
 
 ---
 
@@ -24,8 +24,8 @@
 ---
 
 ### :watch: *GTmetrix test* (1 second to fully loading time!)
-[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/Zm7tvZVa)
+[GTM](https://gtmetrix.com/reports/www.fdsm.edu.br/ZICIfEVQ)
 
 ---
 
-See my developer story over [stackoverflow](https://stackoverflow.com/story/andreygomes87b) and call me on [Linkedin](https://www.linkedin.com/in/andreygomes87b/)! :earth_americas: :metal: 
+See my developer story on [stackoverflow](https://stackoverflow.com/story/andreygomes87b) and call me for a friendly chat on [Linkedin](https://www.linkedin.com/in/andreygomes87b/)! :earth_americas: :metal: 
