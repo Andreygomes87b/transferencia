@@ -92,7 +92,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .webp .calltest{background-image: url(images/banner_topo_transferencia_v1.webp);}
     .no-webp .calltest{background-image: url(images/img-fallback/banner_topo_transferencia_v1.jpg);}
 
-    #txts_banner { float: right; width: 50%; margin: 20% 0 8.4%; color: #fff; font-weight: 600; }
+    #txts_banner { float: right; width: 50%; margin: 15% 0 8.4%; color: #fff; font-weight: 600; }
   
     .linha_1_txts_banner, .linha_1_txts_banner2 { float: left; width: 60%; text-align: center; padding: 1%; font-size: 2vw; background-color: #fcb316; color: #44276a; border-radius: 25px 0; z-index: 1; position: relative; }
     .linha_2_txts_banner, .linha_2_txts_banner2 { float: left; width: fit-content; font-size: 5vw; padding: 2%; font-weight: 600; background-color: #672e91; margin: -2% 0 0 -3%; z-index: 0; }
@@ -100,6 +100,9 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     
     .round_white_button { float: left; width: fit-content; color: #44276a; font-weight: 800; background-color: #fff; padding: 1% 4%; text-align: center; border-radius: 100px; margin: 5% 28%; }
     .round_white_button:hover{ color: #fff; background-color: rgba(252,179,22,.7); transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+
+    #container_selos_top { float: left; width: 50%; margin: 0 21% -15.12%; }
+    .top_seals { float: left; width: 40%; margin: 5%; }
  
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
@@ -135,29 +138,29 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
 
 
   /*#SECTION_4 ( BOLSAS ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-  #bolsas{float: left; width: 90%; padding: 5%; background-color: #ffd200;}
-  #container_selo { float: right; width: 40.34%; margin-top: -5.5%; }
-  #container_bolsas_txts { float: left; width: 59%; text-align: center; font-size: 2.5vw; color: #152350; }
-  .titulo_bolsas{ color: #44276a; font-size: 4.97vw; font-weight: 600; }
-  .tb_bold{color:#ffd200; background-color:#44276a ;}
-  .button_bolsas{ background-color: #462671; width: fit-content; text-align: center; color: #ffd200; padding: 1% 5%; border-radius: 12px; }
+    #bolsas{float: left; width: 90%; padding: 5%; background-color: #ffd200;}
+    #container_selo { float: right; width: 40.34%; margin-top: -5.5%; }
+    #container_bolsas_txts { float: left; width: 59%; text-align: center; font-size: 2.5vw; color: #152350; }
+    .titulo_bolsas{ color: #44276a; font-size: 4.97vw; font-weight: 600; }
+    .tb_bold{color:#ffd200; background-color:#44276a ;}
+    .button_bolsas{ background-color: #462671; width: fit-content; text-align: center; color: #ffd200; padding: 1% 5%; border-radius: 12px; }
 
 
   /*#SECTION_5 ( CONVÊNIOS INTERNACIONAIS ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #convenios {float: left; width: 90%; padding: 5% 5% 0%; background-color: #0e1736; background-image: linear-gradient(to bottom right, #0e1736, #375580); color: #fff;}
     #board_convenios { float: left; width: 40%; }
 
-    .convenio_title{text-align: center; font-size: 4vw; font-weight: 600; }
+    .convenio_title { text-align: center; font-size: 2.4vw; font-weight: 600; }
 
     #board_convenios > center > a > div{font-size: 2vw;}
-
-/*classes em teste*/
+    
     #container_de_texto_e_bandeiras { float: left; width: 94%; padding: 5%; margin: 5% 0; background-size: cover; border-radius: 20px; }
     
     .webp #container_de_texto_e_bandeiras { background: url(images/transparencia.webp);}
     .no-webp #container_de_texto_e_bandeiras { background: url(images/img-fallback/transparencia.png);}
 
-    #txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}
+    /*#txt_ja_pensou_em_estudar_no_exterior{font-size: 3.2vw; text-align: left; font-weight: lighter; line-height: 125%; padding: 0 0 5% 0;}*/
+    .xtra_txt{ font-size: 1.1vw; }
     
     .bandeiras { float: left; width: 100%; padding: 2% 0; }
     .chile, .espanha, .mexico, .portugal, .uruguai{display: inline-block;  overflow: hidden; text-indent: -9999px; text-align: left; max-width: 100%;}
@@ -170,9 +173,9 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
     .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
-    .txt_flags { float: left; width: 80%; padding: 1% 4%; }
+    .txt_flags { float: left; width: 80%; padding: 1% 4%; font-size: 1.1vw;}
 
-    #div_giant { float: right; width: 59.2%; margin: 11% -6% 0; }
+    #div_giant { float: right; width: 59.2%; margin: 4% -6% 0; }
 
 
   /* SECTION_6 ( PROCESSO SELETIVO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -242,6 +245,9 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     
     .round_white_button { float: left; width: fit-content; color: #44276a; font-weight: 800; background-color: #fff; padding: 1% 4%; text-align: center; border-radius: 100px; margin: 5% 28%; }
     .round_white_button:hover{ color: #fff; background-color: rgba(252,179,22,.7); transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+
+    #container_selos_top { float: left; width: 50%; margin: 0 21% -15.12%; }
+    .top_seals { float: left; width: 40%; margin: 5%; }
  
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
@@ -289,7 +295,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     #convenios {float: left; width: 90%; padding: 5% 5% 0%; background-color: #0e1736; background-image: linear-gradient(to bottom right, #0e1736, #375580); color: #fff;}
     #board_convenios { float: left; width: 40%; }
 
-    .convenio_title{text-align: center; font-size: 4vw; font-weight: 600; }
+    .convenio_title { text-align: center; font-size: 3vw; font-weight: 600; float: left; width: 124%; margin: 0 0 5% 0; }
 
     #board_convenios > center > a > div{font-size: 2vw;}
 
@@ -313,7 +319,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     
     .txt_flags { float: left; width: 86%; padding: 1% 2%; }
 
-    #div_giant { float: right; width: 59.2%; margin: 24% -6% 0; }
+    #div_giant { float: right; width: 59.2%; margin: 29% -6% 0; }
 
 
   /* SECTION_6 ( PROCESSO SELETIVO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -385,7 +391,9 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .linha_3_e_4_txts_banner { float: left; width: fit-content; font-size: 3.5vw; text-align: center; font-weight: 100; margin: 2.5% 0; }
     
     .round_white_button { float: left; width: fit-content; color: #44276a; font-weight: 800; background-color: #fff; padding: 1% 4%; text-align: center; border-radius: 100px; margin: 5% 28%; }
-    .round_white_button:hover{ color: #fff; background-color: rgba(252,179,22,.7); transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    
+    #container_selos_top { float: left; width: 50%; margin: 0 21% -15.12%; }
+    .top_seals { float: left; width: 40%; margin: 5%; }
  
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
@@ -535,7 +543,9 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .linha_3_e_4_txts_banner { float: left; width: fit-content; font-size: 4.5vw; text-align: center; font-weight: 100; margin: 2.5% 0;}
     
     .round_white_button { float: left; width: fit-content; color: #44276a; font-weight: 800; background-color: #fff; padding: 1% 4%; text-align: center; border-radius: 100px; margin: 5% 28%; font-size: 3.4vw; }
-    .round_white_button:hover{ color: #fff; background-color: rgba(252,179,22,.7); transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    
+    #container_selos_top { float: left; width: 50%; margin: 0 21% -15.12%; }
+    .top_seals { float: left; width: 40%; margin: 5%; }
  
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
@@ -585,6 +595,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     #board_convenios { float: left; width: 100%; }
 
     .convenio_title{text-align: center; font-size: 10vw; font-weight: 600; }
+    .xtra_txt{ font-size: 3.1vw }
 
     #board_convenios > center > a > div{font-size: 4vw;}
 
@@ -603,7 +614,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .portugal { background-position: -39px -34px !important; width: 28px; height: 28px; float: left; }
     .uruguai { background-position: -5px -67px !important; width: 29px; height: 29px; float: left; }
     
-    .txt_flags { float: left; width: 80%; padding: 1% 4%; }
+    .txt_flags { float: left; width: 80%; padding: 1% 4%; font-size: 3.1vw; }
 
     #div_giant { float: left; width: 100%; }
 
@@ -686,7 +697,9 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .linha_3_e_4_txts_banner { float: left; width: fit-content; font-size: 4.5vw; text-align: center; font-weight: 100; margin: 2.5% 0;}
     
     .round_white_button { float: left; width: fit-content; color: #44276a; font-weight: 800; background-color: #fff; padding: 1% 4%; text-align: center; border-radius: 100px; margin: 5% 28%; font-size: 3.4vw; }
-    .round_white_button:hover{ color: #fff; background-color: rgba(252,179,22,.7); transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    
+    #container_selos_top { float: left; width: 50%; margin: 0 21% -15.12%; }
+    .top_seals { float: left; width: 40%; margin: 5%; }
  
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
@@ -835,7 +848,9 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .linha_3_e_4_txts_banner { float: left; width: fit-content; font-size: 4.5vw; text-align: center; font-weight: 100; margin: 2.5% 0;}
     
     .round_white_button { float: left; width: fit-content; color: #44276a; font-weight: 800; background-color: #fff; padding: 1% 4%; text-align: center; border-radius: 100px; margin: 5% 28%; font-size: 3.4vw; }
-    .round_white_button:hover{ color: #fff; background-color: rgba(252,179,22,.7); transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    
+    #container_selos_top { float: left; width: 50%; margin: 0 21% -15.12%; }
+    .top_seals { float: left; width: 40%; margin: 5%; }
  
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
