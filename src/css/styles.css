@@ -92,7 +92,7 @@ a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: eas
     .webp .calltest{background-image: url(images/banner_topo_transferencia_v1.webp);}
     .no-webp .calltest{background-image: url(images/img-fallback/banner_topo_transferencia_v1.jpg);}
 
-    #txts_banner { float: right; width: 50%; margin: 15% 0 8.4%; color: #fff; font-weight: 600; }
+    #txts_banner { float: right; width: 50%; margin: 13% 0 8.4%; color: #fff; font-weight: 600; }
   
     .linha_1_txts_banner, .linha_1_txts_banner2 { float: left; width: 60%; text-align: center; padding: 1%; font-size: 2vw; background-color: #fcb316; color: #44276a; border-radius: 25px 0; z-index: 1; position: relative; }
     .linha_2_txts_banner, .linha_2_txts_banner2 { float: left; width: fit-content; font-size: 5vw; padding: 2%; font-weight: 600; background-color: #672e91; margin: -2% 0 0 -3%; z-index: 0; }

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="pt-br" style="overflow-x: hidden;"><head><meta charset="UTF-8"><meta name="theme-color" content="#44276a"><link rel="manifest" href="manifest.json"><link rel="preload" href="stylesf-min.css" as="style"><link rel="stylesheet" href="stylesf-min.css"><link rel="preconnect" href="https://i.ytimg.com"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-1"></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="pt-br" style="overflow-x: hidden;"><head><meta charset="UTF-8"><meta name="theme-color" content="#44276a"><link rel="manifest" href="manifest.json"><link rel="preload" href="stylesf-min.css" as="style"><link rel="stylesheet" href="stylesf-min.css"><link rel="preconnect" href="https://i.ytimg.com/vi/YKePC7WTFjI/"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-1"></script><script>window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
