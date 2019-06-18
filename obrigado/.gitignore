@@ -11,5 +11,3 @@ package-lock.json
 _config.yml
 
 #ignore other project files:
-
-\.vscode/

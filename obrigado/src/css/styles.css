@@ -1,0 +1,315 @@
+html{scroll-behavior: smooth;}
+polyline{color:#fcb316;}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {width: 10px;}
+/* Track */
+::-webkit-scrollbar-track {background: #fcb316;}
+/* Handle */
+::-webkit-scrollbar-thumb {background: #44276a;}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {background: #672e91;}
+
+body{margin: 0; overflow-x: hidden; float: left; width: 100%; font-family: 'Libre Franklin', sans-serif;}
+/* .osw, .osb{font-family: 'Libre Franklin', sans-serif;} */
+/* a:hover {background-color:rgba(252,179,22,.7); font-weight: 600; transition: ease .2s; -webkit-box-shadow: 9px 12px 13px 2px rgba(0,0,0,0.31); box-shadow: 9px 12px 13px 2px rgba(0,0,0,0.31);} */
+.hvrme{background-color: #29547A; color: #FFFFFF;}
+
+/* oswald-regular - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../oswald-v17-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('../Oswald Regular'), local('../Oswald-Regular'),
+       url('../oswald-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../oswald-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../oswald-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../oswald-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../oswald-v17-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+
+/* libre-franklin-regular - latin */
+@font-face {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('../libre-franklin-v3-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local('../Libre Franklin'), local('../LibreFranklin-Regular'),
+       url('../libre-franklin-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../libre-franklin-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../libre-franklin-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../libre-franklin-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../libre-franklin-v3-latin-regular.svg#LibreFranklin') format('svg'); /* Legacy iOS */
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1201px) {
+  a:link, a:visited {cursor: pointer; text-decoration: none;}
+  h1 { font-size: 7vw; color: #fff; background: #1545c3; width: fit-content; margin: 0 auto; padding: 1%; transform: rotate(-5deg); text-align: center; font-family: 'Open Sans',sans-serif; }
+  h2 { font-size: 2vw; color: #fff; text-shadow: #000 2px 2px; padding: 5%; box-shadow: #1545c3 3px 3px; }
+  p { font-size: 1.5vw; color: #fff; padding: 2% 2%; margin: 0; width: fit-content; float: left; }
+  .img-dft{float: left; width: 100%;}
+  
+
+  /*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    #container_banner_topo { float: left; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; position: relative; z-index: 0; margin: 0% 0 0 0; }    
+
+    .webp .calltest{background-image: url(images/bg_obrigado2.webp);}
+    .no-webp .calltest{background-image: url(images/img-fallback/bg_obrigado2.jpg);}
+
+    #container_img { float: left; width: 40%; margin: -8% 0 0 5%; position: inherit; }
+
+    #container_buttons { float: left; width: 35%; color: #fff; text-align: center; margin: 0 auto; }
+    .btns { background: #a636eb; color: beige; font-size: 1.5vw; width: fit-content; margin: 0 auto; padding: 2%; border-radius: 12px; box-shadow: #000 4px 4px; }
+    .btns:hover{ background: beige; color: #a636eb; transition: ease .6s; cursor: pointer; }
+
+
+  /*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    #contato{float: left; width: 90%; padding: 5%; background-color: #1545c3; }
+    #hash_mude { float: left; width: 100%; color: #fff; text-align: center; font-size: 5vw; font-weight: 600; }
+    #txt_fale_conosco { margin: 0% 2%; font-size: 3vw; color: #fff; font-weight: 600; }
+    .esp_hov:hover{color: #FFFFFF !important;}
+    
+    #container_redes_sociais_s { float: left; width: 100%; margin: 0 1.5% 0; display: block; }
+
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+
+    /* .webp .blog a:hover, .webp .facebook:hover, .webp .instagram:hover, .webp .linkedin:hover, .webp .twitter:hover, .webp .youtube:hover{background: crimson; opacity: 0.5;} */
+    a > .webp .blog :hover {background: crimson; opacity: 0.5;}
+
+    #container_redes_sociais_s > a:nth-child(-n+6):hover {background: #44276a; opacity: 0.5;}
+    
+
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
+   .logo { float: right; width: 30%; margin: -7% 5% 0 0; padding: 2%;}
+
+ .logo:hover{ background: #44276a; opacity: 0.5; border-radius: 50px; }
+
+    #btt {float: left; width: 5%; height: 5%; margin: 45% 0 0 95%; position: fixed;}
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/* Ipad Pro */
+@media only screen and (max-width : 1200px) {
+  a:link, a:visited {cursor: pointer; text-decoration: none;}
+  h1 { font-size: 7vw; color: #fff; background: #1545c3; width: fit-content; margin: 0 auto; padding: 1%; transform: rotate(-5deg); text-align: center; font-family: 'Open Sans',sans-serif; }
+  h2 { font-size: 2vw; color: #fff; text-shadow: #000 2px 2px; padding: 5%; box-shadow: #1545c3 3px 3px; }
+  p { font-size: 1.5vw; color: #fff; padding: 2% 2%; margin: 0; width: fit-content; float: left; }
+  .img-dft{float: left; width: 100%;}
+  
+
+  /*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    #container_banner_topo { float: left; background-size: cover; background-repeat: no-repeat; width: 100%; height: 100%; position: relative; z-index: 0; margin: 0% 0 0 0; }    
+
+    .webp .calltest{background-image: url(images/bg_obrigado2.webp);}
+    .no-webp .calltest{background-image: url(images/img-fallback/bg_obrigado2.jpg);}
+
+    #container_img { float: left; width: 40%; margin: -8% 0 0 5%; position: inherit; }
+
+    #container_buttons { float: left; width: 35%; color: #fff; text-align: center; margin: 0 auto; }
+    .btns { background: #a636eb; color: beige; font-size: 1.5vw; width: fit-content; margin: 0 auto; padding: 2%; border-radius: 12px; box-shadow: #000 4px 4px; }
+    .btns:hover{ background: beige; color: #a636eb; transition: ease .6s; cursor: pointer; }
+
+
+  /*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    #contato{float: left; width: 90%; padding: 5%; background-color: #1545c3; }
+    #hash_mude { float: left; width: 100%; color: #fff; text-align: center; font-size: 5vw; font-weight: 600; }
+    #txt_fale_conosco { margin: 0% 2%; font-size: 3vw; color: #fff; font-weight: 600; }
+    .esp_hov:hover{color: #FFFFFF !important;}
+    
+    #container_redes_sociais_s { float: left; width: 100%; margin: 0 1.5% 0; display: block; }
+
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+
+    /* .webp .blog a:hover, .webp .facebook:hover, .webp .instagram:hover, .webp .linkedin:hover, .webp .twitter:hover, .webp .youtube:hover{background: crimson; opacity: 0.5;} */
+    a > .webp .blog :hover {background: crimson; opacity: 0.5;}
+
+    #container_redes_sociais_s > a:nth-child(-n+6):hover {background: #44276a; opacity: 0.5;}
+    
+
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
+   .logo { float: right; width: 30%; margin: -7% 5% 0 0; padding: 2%;}
+
+ .logo:hover{ background: #44276a; opacity: 0.5; border-radius: 50px; }
+
+    #btt {float: left; width: 5%; height: 5%; margin: 45% 0 0 95%; position: fixed;}
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/* Medium Devices, Desktops NEXUS 10*/
+@media only screen and (max-width : 992px) {
+  a:link, a:visited {cursor: pointer; text-decoration: none;}
+  h1{font-size: 25vw; color: #FFFFFF; margin: 0; text-align: left; font-family: 'Oswald', sans-serif;}
+  h2 { font-size: 4.5vw; text-shadow: #000 1px 1px; }
+  p { font-size: 4vw; color: #fff; padding: 7% 13%; }
+    
+/*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  #container_banner_topo { float: left; background-size: cover; background-repeat: no-repeat; width: 90%; height: 100%; position: relative; z-index: 0; margin: -10% 0 0 0; padding: 5%; }
+
+  #container_img {width: 90%;}
+  #container_buttons{ width: 100%; font-size: 2vw;}
+  .btns {font-size: 4vw;}
+
+
+/*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  #contato { float: left; width: 90%; padding: 5%; background-color: #1545c3; }
+  #hash_mude { float: left; width: 100%; color: #fff; text-align: center; font-size: 10vw; font-weight: 600; }
+  #txt_fale_conosco { margin: 21% 2% 0; font-size: 5vw; color: #fff; font-weight: 600; }
+  .esp_hov:hover{color: #FFFFFF !important; padding: 1%;}
+  
+  #container_redes_sociais_s { float: left; width: fit-content; margin: 0 28.5%; display: block; white-space: nowrap; }
+
+  .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+  .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+
+  .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+  .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+  .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+  .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+  .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+  .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
+ .logo { float: right; width: 50%; margin: 5% 20% 0 0; }
+ #btt {float: left; width: 5%; height: 5%; margin: 142% 0 0 93% !important; position: fixed;}
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/* Ipad & Ipad mini and Tablets */
+@media only screen and (max-width : 768px){
+  a:link, a:visited {cursor: pointer; text-decoration: none;}
+  h1{font-size: 15vw; color: #FFFFFF; margin: 0; text-align: left; font-family: 'Oswald', sans-serif;}
+  h2 { font-size: 2.25vw; text-shadow: #000 1px 1px; }
+  p { font-size: 4vw; color: #fff; padding: 7% 13%; }
+    
+/*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  #container_banner_topo { float: left; background-size: cover; background-repeat: no-repeat; width: 90%; height: 100%; position: relative; z-index: 0; margin: -10% 0 0 0; padding: 5%; }
+
+  #container_img {width: 45%; margin: -5% 0 0 5%;}
+  #container_buttons{ width: 50%;}
+  .btns {font-size: 2.2vw;}
+
+
+/*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  #contato { float: left; width: 90%; padding: 5%; background-color: #1545c3; }
+  #hash_mude { float: left; width: 100%; color: #fff; text-align: center; font-size: 10vw; font-weight: 600; }
+  #txt_fale_conosco { margin: 21% 2% 0; font-size: 5vw; color: #fff; font-weight: 600; }
+  .esp_hov:hover{color: #FFFFFF !important; padding: 1%;}
+  
+  #container_redes_sociais_s { float: left; width: fit-content; margin: 0 28.5%; display: block; white-space: nowrap; }
+
+  .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+  .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+
+  .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+  .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+  .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+  .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+  .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+  .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
+ .logo { float: right; width: 50%; margin: 5% 20% 0 0; }
+ #btt {float: left; width: 5%; height: 5%; margin: 142% 0 0 93% !important; position: fixed;}
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/* iPhones x, 6/7/8 plus */ 
+@media only screen and (max-width : 480px) {
+  a:link, a:visited {cursor: pointer; text-decoration: none;}
+  h1{font-size: 25vw; color: #FFFFFF; margin: 0; text-align: left; font-family: 'Oswald', sans-serif;}
+  h2 { font-size: 4.5vw; text-shadow: #000 1px 1px; }
+  p { font-size: 4vw; color: #fff; padding: 7% 13%; }
+    
+/*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  #container_banner_topo { float: left; background-size: cover; background-repeat: no-repeat; width: 90%; height: 100%; position: relative; z-index: 0; margin: -10% 0 0 0; padding: 5%; }
+
+  #container_img {width: 90%;}
+  #container_buttons{ width: 100%; font-size: 3vw;}
+  .btns {font-size: 4vw;}
+
+
+/*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  #contato { float: left; width: 90%; padding: 5%; background-color: #1545c3; }
+  #hash_mude { float: left; width: 100%; color: #fff; text-align: center; font-size: 10vw; font-weight: 600; }
+  #txt_fale_conosco { margin: 21% 2% 0; font-size: 5vw; color: #fff; font-weight: 600; }
+  .esp_hov:hover{color: #FFFFFF !important; padding: 1%;}
+  
+  #container_redes_sociais_s { float: left; width: 100%; margin: 0 0% 0 -3%; display: block; white-space: nowrap; }
+
+  .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+  .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+
+  .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+  .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+  .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+  .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+  .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+  .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
+ .logo { float: right; width: 50%; margin: 5% 20% 0 0; }
+ #btt {float: left; width: 5%; height: 5%; margin: 142% 0 0 93% !important; position: fixed;}
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
+
+/* iPhone 4*/ 
+@media only screen and (max-width : 320px) {
+    a:link, a:visited {cursor: pointer; text-decoration: none;}
+    h1{font-size: 25vw; color: #FFFFFF; margin: 0; text-align: left; font-family: 'Oswald', sans-serif;}
+    h2 { font-size: 4.5vw; text-shadow: #000 1px 1px; }
+    p { font-size: 4vw; color: #fff; padding: 7% 13%; }
+      
+ /*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    #container_banner_topo { float: left; background-size: cover; background-repeat: no-repeat; width: 90%; height: 100%; position: relative; z-index: 0; margin: -10% 0 0 0; padding: 5%; }
+  
+    #container_img {width: 90%;}
+    #container_buttons{ width: 100%;}
+    .btns {font-size: 4vw;}
+
+
+  /*#SECTION_7 (FALE CONOSCO & REDES SOCIAIS) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    #contato { float: left; width: 90%; padding: 5%; background-color: #1545c3; }
+    #hash_mude { float: left; width: 100%; color: #fff; text-align: center; font-size: 10vw; font-weight: 600; }
+    #txt_fale_conosco { margin: 21% 2% 0; font-size: 5vw; color: #fff; font-weight: 600; }
+    .esp_hov:hover{color: #FFFFFF !important; padding: 1%;}
+    
+    #container_redes_sociais_s { float: left; width: 56%; margin: 0 22% 0; display: block; white-space: normal; }
+
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+
+    .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
+    .instagram { background-position: -0px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .linkedin { background-position: -48px -48px !important; width: 48px; height: 48px; margin: 1%; }
+    .twitter { background-position: -0px -96px !important; width: 48px; height: 48px; margin: 1%; }
+    .youtube { background-position: -48px -96px !important; width: 48px; height: 48px; margin: 1%; }
+   .logo { float: right; width: 50%; margin: 5% 20% 0 0; }
+   #btt {float: left; width: 5%; height: 5%; margin: 142% 0 0 93% !important; position: fixed;}
+}
+
+
+/*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
