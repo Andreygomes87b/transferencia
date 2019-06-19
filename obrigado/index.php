@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="pt-br" style="overflow-x: hidden;"><head><meta charset="UTF-8"><meta name="theme-color" content="#44276a"><link rel="preload" href="stylesf-min.css" as="style"><link rel="stylesheet" href="stylesf-min.css"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-1"></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="pt-br" style="overflow-x: hidden;"><head><meta charset="UTF-8"><meta name="theme-color" content="#44276a"><meta name="robots" content="noindex"><link rel="preload" href="stylesf-min.css" as="style"><link rel="stylesheet" href="stylesf-min.css"><script async src="https://www.googletagmanager.com/gtag/js?id=UA-41994177-1"></script><script>window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
