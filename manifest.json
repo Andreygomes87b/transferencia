@@ -3,8 +3,8 @@
   "short_name": "Transferencia - FDSM",
   "start_url": "https://www.fdsm.edu.br/transferencia/",
   "display": "fullscreen",
-  "theme_color": "#44276a",
-  "background_color": "#44276a",
+  "theme_color": "#1e3980",
+  "background_color": "#1e3980",
   "description": " Confira o web app de transferência de curso da FDSM, Saiba tudo sobre os diferenciais oferecidos, Bolsas de estudo, intercâmbio e muito mais! FDSM - 'O Melhor Direito é o Nosso!' ",
   
   "icons": [{
