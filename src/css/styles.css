@@ -50,7 +50,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
   .hamburger:hover {opacity: 0.7;}
   .hamburger.is-active:hover {opacity: 0.7; }
   .hamburger.is-active .hamburger-inner,.hamburger.is-active .hamburger-inner::before,.hamburger.is-active .hamburger-inner::after {background-color: #FFFFFF;}
-  .hamburger-box {width: 30px; height: 25px; display: inline-block; position: relative; float: left;}
+  .hamburger-box {width: 30px; height: 25px; display: block; position: relative; float: left;}
 
   .hamburger-inner {display: block; top: 50%; margin-top: -2px;}
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {width: 25px; height: 4px; background-color: #FFFFFF; border-radius: 0px; position: absolute; transition-property: transform; transition-duration: 0.15s; transition-timing-function: ease;}
@@ -107,7 +107,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
     #half_txt_curso { float: left; width: 60%; margin: 0 20% 0; background: #e3e3e3; }
-    .video_menu{ float: left; width: fit-content; text-align: center; font-size: 2vw; padding: 2% 9%; }
+    .video_menu{ float: left; width: fit-content; width: -moz-fit-content; text-align: center; font-size: 1.75rem; padding: 2% 9%; }
     .o_melhor_direito{ float: left; width: 90%; margin: 2% 5%; font-size: 2vw; color: #1942c2; font-weight: 600; text-align: center; }
     #half_txt_curso > a:nth-child(2) > div{padding: 4% 5.9%;}
     #half_video { float: left; width: 60%; margin: -0.5% 20% 5.41%; }
@@ -116,7 +116,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .youtube-player {position: relative; padding-bottom: 56.23%;/* Use 75% for 4:3 videos */height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}    
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
-    .youtube-player img:hover {-webkit-filter: brightness(75%);}    
+    .youtube-player img:hover {-webkit-filter: brightness(75%); filter: brightness(75%);}    
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
     .webp .play { background-image: url(images/play.webp); }
     .no-webp .play { background-image: url(images/img-fallback/play.png); }
@@ -145,8 +145,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .tb_bold{color:#fff; background-color:#1e3980; }
 
     .btn_container{ float: left; width: fit-content; margin: 0 35.5%; white-space: nowrap; }
-    .button_bolsas{ background-color: #a5fb0e; width: fit-content; width: -moz-fit-content; text-align: center; color: #1e3980; padding: 1% 5%; border-radius: 12px; }
-    .button_bolsas:hover{ box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); transition: ease .3s}
+    .button_bolsas{ background-color: #a5fb0e; width: fit-content; width: -moz-fit-content; text-align: center; color: #1e3980; padding: 1% 5%; border-radius: 12px; }    
 
 
   /*#SECTION_5 ( CONVÊNIOS INTERNACIONAIS ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -187,7 +186,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     #txts_transferencia > center > a:nth-child(5) > div{margin-top: 25%;}
 
     .button_ps { background-color: #a5fb0e; width: 100%; text-align: center; color: #1e3980; font-size: 1.5vw; padding: 2% 10%; border-radius: 12px; margin: 25% 10%; }
-    .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    .button_ps:hover, .button_bolsas:hover{ background-color: #1e3980; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
     #txts_transferencia > center > a:nth-child(6) > div{margin: 32% 0 5%;}
 
     #container_img_transferencia { float: left; width: 23.84%; margin: 0 13.08%; }
@@ -201,8 +200,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     
     #container_redes_sociais_s { float: left; width: 100%; margin: 0 1.5% 0; display: block; }
 
-    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v4.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v4.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
     .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
@@ -254,7 +253,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
     #half_txt_curso { float: left; width: 60%; margin: 0 20% 0; background: #e3e3e3; }
-    .video_menu{ float: left; width: fit-content; text-align: center; font-size: 2vw; padding: 2% 9%; }
+    .video_menu{ float: left; width: fit-content; width: -moz-fit-content; text-align: center; font-size: 2vw; padding: 2% 9%; }
     .o_melhor_direito{ float: left; width: 90%; margin: 2% 5%; font-size: 2vw; color: #1942c2; font-weight: 600; text-align: center; }
     #half_txt_curso>a:nth-child(2)>div { padding: 4% 6.18%; }
     #half_video { float: left; width: 60%; margin: -0.5% 20% 5.41%; }
@@ -263,7 +262,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .youtube-player {position: relative; padding-bottom: 56.23%;/* Use 75% for 4:3 videos */height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}    
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
-    .youtube-player img:hover {-webkit-filter: brightness(75%);}    
+    .youtube-player img:hover {-webkit-filter: brightness(75%); filter: brightness(75%);}    
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
     .webp .play { background-image: url(images/play.webp); }
     .no-webp .play { background-image: url(images/img-fallback/play.png); }
@@ -334,7 +333,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     #txts_transferencia > center > a:nth-child(5) > div{margin-top: 25%;}
 
     .button_ps { background-color: #a5fb0e; width: 100%; text-align: center; color: #1e3980; font-size: 1.5vw; padding: 1% 5%; border-radius: 12px; margin: 15% 0%; }
-    .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    .button_ps:hover{ background-color: #1e3980; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
     #txts_transferencia>center>a:nth-child(6)>div { margin: 5% 0 10%; }
 
@@ -351,8 +350,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     
     #container_redes_sociais_s { float: left; width: 75%; margin: 0 1.5% 0; display: block; }
 
-    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v4.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v4.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
     .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
@@ -403,7 +402,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
     #half_txt_curso { float: left; width: 60%; margin: 0 20% 0; background: #e3e3e3; }
-    .video_menu{ float: left; width: fit-content; text-align: center; font-size: 2vw; padding: 2% 9%; }
+    .video_menu{ float: left; width: fit-content; width: -moz-fit-content; text-align: center; font-size: 2vw; padding: 2% 9%; }
     .o_melhor_direito{ float: left; width: 90%; margin: 2% 5%; font-size: 2vw; color: #1942c2; font-weight: 600; text-align: center; }
     #half_txt_curso > a:nth-child(2) > div{padding: 4% 9%;}
     #half_video { float: left; width: 60%; margin: -0.5% 20% 5.41%; }
@@ -412,7 +411,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .youtube-player {position: relative; padding-bottom: 56.23%;/* Use 75% for 4:3 videos */height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}    
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
-    .youtube-player img:hover {-webkit-filter: brightness(75%);}    
+    .youtube-player img:hover {-webkit-filter: brightness(75%); filter: brightness(75%);}    
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
     .webp .play { background-image: url(images/play.webp); }
     .no-webp .play { background-image: url(images/img-fallback/play.png); }
@@ -484,7 +483,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
  
     
     .button_ps { background-color: #a5fb0e; width: fit-content; text-align: center; color: #1e3980; font-size: 1.5vw; padding: 1% 5%; border-radius: 12px; margin: 11% 10%; position: relative; }
-    .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    .button_ps:hover{ background-color: #1e3980; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
     #container_img_transferencia { float: left; width: 24%; margin: 0 13%; }
 
@@ -497,8 +496,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     
     #container_redes_sociais_s { float: left; width: 69%; margin: 0 1.5% 0; display: block; }
 
-    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v4.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v4.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
     .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
@@ -524,7 +523,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
   
   /*burger icon extras*/
     .hamburger {padding: 0% 30%; display: inline-block; cursor: pointer; transition-property: opacity, filter; transition-duration: 0.15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; outline: none;}
-    .hamburger-box {width: 71px; height: 65px; display: inline-block; position: relative; float: right;}
+    .hamburger-box {width: 71px; height: 65px; display: block; position: relative; float: right;}
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {width: 25px; height: 4px; background-color: #FFFFFF; border-radius: 0px; position: absolute; transition-property: transform; transition-duration: 0.15s; transition-timing-function: ease;}
     .hamburger-inner {display: block; top: 50%; margin-top: -2px;}
       
@@ -533,8 +532,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .topnav #myLinks  {transition: display 0.2s ease; display: none;}
     .topnav a {color: #FFFFFF; padding: 2% 2%; text-decoration: none; font-size: 3.5vw; display: block; margin: 0 0 0 0;}
     .topnav a.icon {background: #000; display: block; position: absolute; right: 0; top: 0; float: right; width: 10%; height: 67px;}
-    .menu_active {float: initial !important;  display: inline; background-color: #a5fb0e; color: #FFFFFF;}
-    .menu_active:first-child{float: initial !important; width: 100%; display: flex; padding: 0 0; margin: 0 0;}
+    .menu_active {float: initial !important;  display: -webkit-box; background-color: #a5fb0e; color: #FFF; height: 5%; }
+    .menu_active:first-child{float: initial !important; width: 100%; height: 5%; display: -webkit-box; padding: 0 0; margin: 0 0; }
   /*End of the Responsive menu */
         
   /*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -557,7 +556,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
     #half_txt_curso { float: left; width: 80%; margin: 0 10% 0; background: #e3e3e3; }
-    .video_menu { float: left; width: fit-content; text-align: center; font-size: 3vw; padding: 2% 8%; color: #44276a;}
+    .video_menu { float: left; width: fit-content; width: -moz-fit-content; text-align: center; font-size: 1.4rem; padding: 2% 8%; color: #44276a;}
     .o_melhor_direito{ float: left; width: 90%; margin: 2% 5%; font-size: 4vw; color: #1942c2; font-weight: 600; text-align: center; }
     #half_txt_curso > a:nth-child(2) > div{padding: 4% 4.95%;}
     #half_video { float: left; width: 85%; margin: -.5% 7.5% 5.41%; }
@@ -567,7 +566,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .youtube-player {position: relative; padding-bottom: 56.23%;/* Use 75% for 4:3 videos */height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}    
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
-    .youtube-player img:hover {-webkit-filter: brightness(75%);}    
+    .youtube-player img:hover {-webkit-filter: brightness(75%); filter: brightness(75%);}    
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
     .webp .play { background-image: url(images/play.webp); }
     .no-webp .play { background-image: url(images/img-fallback/play.png); }
@@ -641,7 +640,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     #txts_transferencia>center>a:nth-child(6)>div { margin: 5% 0 7%; }
 
     .button_ps { background-color: #a5fb0e; width: 100%; text-align: center; color: #1e3980; font-size: 3.5vw; padding: 1% 5%; border-radius: 12px; margin: 16% -5%; position: relative; }
-    .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    .button_ps:hover{ background-color: #1e3980; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
     #container_img_transferencia { float: left; width: 23.3%; margin: 0 38.35%; }
 
@@ -654,8 +653,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     
     #container_redes_sociais_s { float: left; width: 51%; margin: 0% 44% 0 5%; display: block; }
 
-    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v4.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v4.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
     .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
@@ -674,7 +673,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
 @media only screen and (max-width : 480px) {
   /*extra burger classes*/
     .hamburger {padding: 0 2%; display: inline-block; cursor: pointer; transition-property: opacity,filter; transition-duration: .15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; outline: 0;}
-    .hamburger-box {width: 0px; height: 30px; display: inline-block; position: relative; float: right;}
+    .hamburger-box {width: 0px; height: 30px; display: block; position: relative; float: right;}
 
     a:link, a:visited {cursor: pointer; text-decoration: none;}
     h1{font-size: 2vw; color: #FFFFFF; margin: 0; text-align: left; font-family: 'Oswald', sans-serif;}
@@ -689,8 +688,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .topnav a {color: #FFFFFF; padding: 2% 2%; text-decoration: none; font-size: 3.5vw; display: block; margin: 0 0 0 0;}
     .topnav a.icon {background: #000; display: block; position: absolute; right: 0; top: 0; float: right; width: 7%; height: 33px;}
     .topnav a:onclick {background-color: #ddd; color: black;}
-    .menu_active {float: initial !important;  display: inline; background-color: #a5fb0e; color: #FFFFFF;}
-    .menu_active:first-child{float: initial !important; width: 100%; display: flex; padding: 0 0;}    
+    .menu_active {float: initial !important;  display: -webkit-box; background-color: #a5fb0e; color: #FFF; height: 5%;}
+    .menu_active:first-child{float: initial !important; width: 100%; height: 5%; display: flex; padding: 0 0;}    
   /*End of the Responsive menu */
         
   /*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -713,7 +712,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
   /*#SECTION_2 ( O CURSO ) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
     #half_txt_curso { float: left; width: 80%; margin: 0 10% 0; background: #e3e3e3; }
-    .video_menu { float: left; width: fit-content; text-align: center; font-size: 3vw; padding: 2% 8%; color: #44276a;}
+    .video_menu { float: left; width: fit-content; width: -moz-fit-content; text-align: center; font-size: .65rem; padding: 2% 8%; color: #44276a;}
     .o_melhor_direito{ float: left; width: 90%; margin: 2% 5%; font-size: 4vw; color: #1942c2; font-weight: 600; text-align: center; }
     #half_txt_curso > a:nth-child(2) > div{padding: 4% 4.94%;}
     #half_video { float: left; width: 85%; margin: -.5% 7.5% 5.41%; }
@@ -723,7 +722,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .youtube-player {position: relative; padding-bottom: 56.23%;/* Use 75% for 4:3 videos */height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}    
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
-    .youtube-player img:hover {-webkit-filter: brightness(75%);}    
+    .youtube-player img:hover {-webkit-filter: brightness(75%); filter: brightness(75%);}    
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
     .webp .play { background-image: url(images/play.webp); }
     .no-webp .play { background-image: url(images/img-fallback/play.png); }
@@ -795,7 +794,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     #txts_transferencia > center > a:nth-child(5) > div{margin-top: 19%;}
     #txts_transferencia>center>a:nth-child(6)>div { margin: 10% 0 10%; }
     .button_ps { background-color: #a5fb0e; width: 100%; text-align: center; color: #1e3980; font-size: 3.5vw; padding: 1% 5%; border-radius: 12px; margin: 10% -5%; }
-    .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    .button_ps:hover{ background-color: #1e3980; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
     #container_img_transferencia { float: left; width: 50.3%; margin: 0 25.35%; }
 
@@ -808,8 +807,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     
     #container_redes_sociais_s { float: left; width: 103%; margin: 0% 0% 0% -1.5%; display: block; }
 
-    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v4.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v4.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
     .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
@@ -828,7 +827,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
 @media only screen and (max-width : 320px) {
   /*xtra burger classes*/
     .hamburger {padding: 0 2%; display: inline-block; cursor: pointer; transition-property: opacity,filter; transition-duration: .15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; outline: 0;}
-    .hamburger-box {width: 0px; height: 30px; display: inline-block; position: relative; float: right;}
+    .hamburger-box {width: 0px; height: 30px; display: block; position: relative; float: right;}
 
     a:link, a:visited {cursor: pointer; text-decoration: none;}
     h1{font-size: 2vw; color: #FFFFFF; margin: 0; text-align: left; font-family: 'Oswald', sans-serif;}
@@ -842,8 +841,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .topnav #myLinks { transition: display .2s ease; display: none; text-align: center; width: 100%; }
     .topnav a {color: #FFFFFF; padding: 2% 2%; text-decoration: none; font-size: 3.5vw; display: block; margin: 0 0 0 0;}
     .topnav a.icon {background: #000; display: block; position: absolute; right: 0; top: 0; float: right; width: 8%; height: 28px;}
-    .menu_active {float: initial !important;  display: inline; background-color: #a5fb0e; color: #FFFFFF;}
-    .menu_active:first-child{float: initial !important; width: 100%; display: flex; padding: 0 0;}    
+    .menu_active {float: initial !important;  display: -webkit-box; background-color: #a5fb0e; color: #FFF; height: 5%;}
+    .menu_active:first-child{float: initial !important; width: 100%; height: 5%; display: -webkit-box; padding: 0 0;}
   /*End of the Responsive menu */
         
  /*#SECTION_1 ( TOPO ) -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -867,7 +866,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     #o_curso { float: left; width: 100%; position: relative; margin: 0 0 0%; background-color: #fff; }
     #half_txt_curso { float: left; width: 80%; margin: 0 10% 0; background: #e3e3e3; }
     #half_txt_curso>a:nth-child(2)>div { padding: 4% 4.95%; }
-    .video_menu { float: left; width: fit-content; text-align: center; font-size: 3vw; padding: 2% 8%; color: #44276a;}
+    .video_menu { float: left; width: fit-content; width: -moz-fit-content; text-align: center; font-size: .55rem; padding: 2% 8%; color: #44276a;}
     .o_melhor_direito{ float: left; width: 90%; margin: 2% 5%; font-size: 4vw; color: #1942c2; font-weight: 600; text-align: center; }
     #half_video { float: left; width: 85%; margin: -.5% 7.5% 5.41%; }
 
@@ -876,7 +875,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     .youtube-player {position: relative; padding-bottom: 56.23%;/* Use 75% for 4:3 videos */height: 0; overflow: hidden; max-width: 100%; background: #000; margin: 5px;}    
     .youtube-player iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 100; background: transparent;}    
     .youtube-player img {bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; border: none; height: auto; cursor: pointer; -webkit-transition: .4s all; -moz-transition: .4s all; transition: .4s all;}
-    .youtube-player img:hover {-webkit-filter: brightness(75%);}    
+    .youtube-player img:hover {-webkit-filter: brightness(75%); filter: brightness(75%);}    
     .youtube-player .play {height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; cursor: pointer;}
     .webp .play { background-image: url(images/play.webp); }
     .no-webp .play { background-image: url(images/img-fallback/play.png); }
@@ -948,7 +947,7 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     #txts_transferencia>center>p { font-size: 4.5vw; color: #fff; padding: 2% 2%; margin: 20% 2% 0; width: fit-content; float: none; }
 
     .button_ps { background-color: #a5fb0e; width: 100%; text-align: center; color: #1e3980; font-size: 3.5vw; padding: 1% 5%; border-radius: 12px; margin: 20% -10%; }
-    .button_ps:hover{ background-color: background-color: #462671  ; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
+    .button_ps:hover{ background-color: #1e3980; color: #fff; font-weight: 600; transition: ease .3s; box-shadow: 9px 12px 13px 2px rgba(0,0,0,.31); }
 
     #container_img_transferencia { float: left; width: 26%; margin: 0px 37.5%; }
 
@@ -961,8 +960,8 @@ a:hover { background-color: rgba(165,251,14,.7); font-weight: 600; transition: e
     
     #container_redes_sociais_s { float: left; width: 56%; margin: 0 22% 0; display: block; }
 
-    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v3.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
-    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v3.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .webp .blog, .webp .facebook, .webp .instagram, .webp .linkedin, .webp .twitter, .webp .youtube{display: inline-block; background: url('images/rs_s_v4.webp'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
+    .no-webp .blog, .no-webp .facebook, .no-webp .instagram, .no-webp .linkedin, .no-webp .twitter, .no-webp .youtube {display: inline-block; background: url('images/img-fallback/rs_s_v4.png'); background-repeat: no-repeat; overflow: hidden; text-indent: -9999px; text-align: left;}
 
     .blog { background-position: -0px -0px !important; width: 48px; height: 48px; margin: 1%; }
     .facebook { background-position: -48px -0px !important; width: 48px; height: 48px; margin: 1%; }
